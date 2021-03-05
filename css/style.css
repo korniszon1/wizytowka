@@ -1,0 +1,228 @@
+/* Background pattern from Toptal Subtle Patterns */
+body
+{
+    background-image: url(../img/papyrus-dark.png);
+    font-family: 'Roboto', sans-serif;
+}
+.textarea
+{
+    border: 1px solid #ced4da;
+}
+input
+{
+    width: 200px;
+}
+.block
+{
+    min-height: 50vh !important;
+}
+ul li a
+{
+    font-size: 1.25rem;
+}
+.text
+{
+    text-indent: 2rem;
+}
+.block .img:nth-child(1)
+{
+    width: 160px;
+}
+.block .img:nth-child(2)
+{
+    width: 200px;
+}
+.block .img:nth-child(3)
+{
+    width: 200px;
+}
+.block .img:nth-child(4)
+{
+    width: 200px;
+}
+.block .img:nth-child(5)
+{
+    width: 200px;
+}
+.block .img:nth-child(6)
+{
+    width: 200px;
+}
+.block .img:nth-child(7)
+{
+    width: 200px;
+}
+.block .img:nth-child(8)
+{
+    width: 200px;
+}
+/* main
+{
+    margin-top: 2rem;
+}
+.radius
+{
+    border-top-right-radius: 50px;
+}
+img
+{
+     border-top-left-radius: 50px;
+} */
+.nav-tabs .active
+{
+    margin-top: -3;
+    border-bottom: 1px solid black !important;
+    font-weight: bold;
+}
+.list
+{
+    box-sizing: border-box;
+}
+/* .btn
+{
+    margin: 10px;
+    float: left;
+    width: 50px;
+} */
+p
+{
+    padding: 0;
+    margin: 0;
+}
+@media (max-width: 575px)
+{
+    body
+    {
+        background-color: black;
+        
+    }
+    img
+    {
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+        border-top-right-radius: 2rem;
+    }
+    .col-md-4
+    {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .list
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .h1
+    {
+        font-size: 1.5rem;
+    }
+    .nav-tabs .active
+    {
+
+        border: 2px solid black !important;
+        font-weight: bold;
+        border-radius: 10px;
+        box-shadow: 0 0 1px black;
+    }
+    .nav-tabs
+    {
+        border: 0px solid;
+    }
+    ul li a
+    {
+        margin: 10px;
+        margin-bottom: 2px;
+    }
+    .block .img:nth-child(1)
+    {
+        width:90vw;
+    }
+    .block .img:nth-child(2)
+    {
+        width:90vw;
+    }
+    .block .img:nth-child(3)
+    {
+        width:90vw;
+    }
+    .block .img:nth-child(4)
+    {
+        width:90vw;
+    }
+    .block .img:nth-child(5)
+    {
+        width:90vw;
+    }
+    .block .img:nth-child(6)
+    {
+        width:90vw;
+    }
+    .block .img:nth-child(7)
+    {
+        width:90vw;
+    }
+    .block .img:nth-child(8)
+    {
+        width:90vw;
+    }
+    section .block p
+    {
+        font-size: 1rem;
+    }
+    section .block p:nth-child(2)
+    {
+        background: #eee;
+    }
+    section .block p:nth-child(6)
+    {
+        background: #eee;
+    }
+    section .block p:nth-child(10)
+    {
+        background: #eee;
+    }
+    section .block p:nth-child(11)
+    {
+        background: #eee;
+    }
+}
+@media(min-width:575px) and (max-width:1200px)
+{
+    img
+    {
+        padding-top: 1rem;
+        border-top-left-radius: 2rem;
+    }
+    .img-fluid
+    {
+        height: 100%;
+        width: 100%;
+    }
+    .tablet
+    {
+        margin-top: 1rem;
+        border-top-right-radius: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .nav-tabs .active
+    {
+
+        border: 2px solid black !important;
+        font-weight: bold;
+        border-radius: 10px;
+        box-shadow: 0 0 1px black;
+    }
+    .nav-tabs
+    {
+        border: 0px solid;
+    }
+    ul li a
+    {
+        margin: 10px;
+        margin-bottom: 2px;
+    }
+}
