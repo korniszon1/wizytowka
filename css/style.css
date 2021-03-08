@@ -4,6 +4,14 @@ body
     background-image: url(../img/papyrus-dark.png);
     font-family: 'Roboto', sans-serif;
 }
+.slowanimation
+{
+    animation-duration: 700ms;
+}
+.fastanimation
+{
+    animation-duration: 500ms;
+}
 .textarea
 {
     border: 1px solid #ced4da;
@@ -14,7 +22,7 @@ input
 }
 .block
 {
-    min-height: 50vh !important;
+    min-height: 50vh;
 }
 ul li a
 {
@@ -68,10 +76,10 @@ img
 {
      border-top-left-radius: 50px;
 } */
-.nav-tabs .active
+.nav-tabs .nav-link.active
 {
     margin-top: -3;
-    border-bottom: 1px solid black !important;
+    border-bottom: 1px solid black;
     font-weight: bold;
 }
 .list
@@ -119,10 +127,10 @@ p
     {
         font-size: 1.5rem;
     }
-    .nav-tabs .active
+    .nav-tabs .nav-link.active
     {
 
-        border: 2px solid black !important;
+        border: 2px solid black;
         font-weight: bold;
         border-radius: 10px;
         box-shadow: 0 0 1px black;
@@ -208,10 +216,10 @@ p
         padding-left: 1rem;
         padding-right: 1rem;
     }
-    .nav-tabs .active
+    .nav-tabs .nav-link.active
     {
 
-        border: 2px solid black !important;
+        border: 2px solid black;
         font-weight: bold;
         border-radius: 10px;
         box-shadow: 0 0 1px black;
